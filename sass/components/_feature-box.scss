@@ -1,4 +1,4 @@
-.feature-box{
+.feature-box {
     background-color: rgba($color-white, .8);
     font-size: 1.5rem;
     padding: 2.5rem;
@@ -7,16 +7,19 @@
     box-shadow: 0 1.5rem 4rem rgba($color-white, .15);
     transition: transform .3s;
 
-    &__icon{
+    &__icon {
         font-size: 6rem;
         margin: .5rem;
-        background-image: linear-gradient(to right,$color-primary-light,$color-primary-dark);
--webkit-background-clip: text;
+        display: inline-block;
+        background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+        -webkit-background-clip: text;
         color: transparent;
     }
 
-    &:hover{
+    &:hover {
         transform: translateY(-1.5rem) scale(1.03);
+        cursor: pointer;
     }
-    &__text{}
+
+
 }
